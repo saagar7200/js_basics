@@ -99,7 +99,7 @@ class User {
   }
 }
 
-const user = new User("John Doe", 28); // {name:'' ,age:'' , getName(){}}
+// const user = new User("John Doe", 28); // {name:'' ,age:'' , getName(){}}
 
 //   {} -> this
 // {name:''} -> this
