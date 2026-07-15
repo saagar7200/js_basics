@@ -184,18 +184,18 @@ const fetchUser = () => {
   });
 };
 
-const getData = async () => {
-  try {
-    console.log("async start");
-    const user = await fetchUser();
-    console.log(user);
-    const posts = await fetchPosts(user._id);
-    console.log(posts);
-  } catch (error) {
-    console.log("catch");
-    console.log(error);
-  }
-};
+// const getData = async () => {
+//   try {
+//     console.log("async start");
+//     const user = await fetchUser();
+//     console.log(user);
+//     const posts = await fetchPosts(user._id);
+//     console.log(posts);
+//   } catch (error) {
+//     console.log("catch");
+//     console.log(error);
+//   }
+// };
 
 // console.log("start");
 // getData();
