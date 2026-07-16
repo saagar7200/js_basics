@@ -41,8 +41,8 @@
 //! branch
 //* git branch   -> list all local branch
 //* git branch <branch_name>   -> create new branch
-//* git switch <branch_name>
-//* git switch -c <branch_name>   -> create & switch to new branch
+//* git switch <branch_name>   // =>  git checkout <branch_name>
+//* git switch -c <branch_name>   //  git checkout -b <branch_name>  -> create & switch to new branch
 
 //! merge
 //* git merge <branch_name>
@@ -52,7 +52,12 @@
 //* git log --oneline origin/main..main
 //* git log --oneline test..main
 
-//* diff
+//! diff
 //* git diff origin/main..main
 //* git diff test..main
 //* git diff main..test
+
+//!  remote
+//* git remote add origin <remote_url>
+//* git remote -v
+//* git remote remove origin
