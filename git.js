@@ -61,3 +61,5 @@
 //* git remote add origin <remote_url>
 //* git remote -v
 //* git remote remove origin
+
+//! merge conflict
