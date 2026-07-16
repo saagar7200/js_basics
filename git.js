@@ -71,3 +71,6 @@
 //? feature  ->
 //? fix   -> bug fix
 //? hotfix -> critical bug fix
+
+//todo: revert , reset , cherry-pick , rebase
+//? stash
