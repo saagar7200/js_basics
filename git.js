@@ -63,3 +63,11 @@
 //* git remote remove origin
 
 //! merge conflict
+
+//* pull request
+
+//? main  -> production
+//? develop  -> integration
+//? feature  ->
+//? fix   -> bug fix
+//? hotfix -> critical bug fix
