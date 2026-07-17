@@ -74,3 +74,5 @@
 
 //todo: revert , reset , cherry-pick , rebase
 //? stash
+
+// A -> B -> C -> D
