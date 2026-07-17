@@ -74,9 +74,12 @@
 
 //todo: revert , reset , cherry-pick , rebase
 //? stash
+<<<<<<< HEAD
 
 // A -> B -> C -> D -> E
 // A -> B -> C
 
 //* git revert <commit_id>
 //* git revert HEAD~1
+=======
+>>>>>>> parent of 4e5d6ab (example)
