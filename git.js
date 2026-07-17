@@ -82,5 +82,3 @@
 //* --soft   -> staged
 //* --mixed   -> changes
 //* --hard   -> delete changes
-
-//* changes after last commit
