@@ -71,7 +71,6 @@
 //? feature  ->
 //? fix   -> bug fix
 //? hotfix -> critical bug fix
-<<<<<<< HEAD
 
 //todo: revert , reset , cherry-pick , rebase
 //? stash
@@ -80,5 +79,4 @@
 // A -> B -> C
 
 //* git revert <commit_id>
-=======
->>>>>>> parent of b719c55 (todo)
+//* git revert HEAD~1
