@@ -75,4 +75,7 @@
 //todo: revert , reset , cherry-pick , rebase
 //? stash
 
-// A -> B -> C -> D
+// A -> B -> C -> D -> E
+// A -> B -> C
+
+//* git revert <commit_id>
