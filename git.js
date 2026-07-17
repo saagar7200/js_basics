@@ -76,9 +76,24 @@
 //? stash
 
 //* git commit  --amend -m "new message"  -> edit last commit message
+//* git commit -am 'add & commit'
 // error
 //* git reset <commit_id>
 //* git reset HEAD~n  -> n = 1,2,3,4,5
 //* --soft   -> staged
 //* --mixed   -> changes
 //* --hard   -> delete changes
+
+//* git stash -> stash changes
+//* git stash -m "<message>" -> stash changes with message
+//* git stash pop  -> Apply & drop  last stash change
+//* git stash apply  -> Apply   last stash change
+//* git stash drop -> drop   last stash change
+//* git stash clear -> drop   all stash change
+//* git stash list  -> list stashed changes
+//changes
+//changes
+//changes
+//changes
+//changes
+//changes
