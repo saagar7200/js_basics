@@ -75,9 +75,12 @@
 //todo: revert , reset , cherry-pick , rebase
 //? stash
 
+//* git commit  --amend -m "new message"  -> edit last commit message
 // error
-// git reset <commit_id>
-// git reset HEAD~n  -> n = 1,2,3,4,5
-// --soft   -> staged
-// --mixed   -> changes
-// --hard   -> delete changes
+//* git reset <commit_id>
+//* git reset HEAD~n  -> n = 1,2,3,4,5
+//* --soft   -> staged
+//* --mixed   -> changes
+//* --hard   -> delete changes
+
+//* changes after last commit
