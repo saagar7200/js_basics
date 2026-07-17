@@ -88,6 +88,7 @@
 //* git stash -m "<message>" -> stash changes with message
 //* git stash pop  -> Apply & drop  last stash change
 //* git stash apply  -> Apply   last stash change
+//* git stash apply stash@{n} -> Apply  n stash change
 //* git stash drop -> drop   last stash change
 //* git stash clear -> drop   all stash change
 //* git stash list  -> list stashed changes
@@ -97,3 +98,17 @@
 //changes
 //changes
 //changes
+
+// main: a -> b -> d
+// login : e  -> f -> g
+
+// main: git cherry-pick <f_commit_id>  => a -> b -> d -> f
+
+//*rebase:
+//? main: a -> b -> d -> h
+//? login :         e  -> f
+
+//? login: git rebase main   ->  a -> b -> d -> h -> e'  -> f'
+
+//!  git rebase continue
+//! git rebase abort
