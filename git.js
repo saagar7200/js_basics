@@ -26,7 +26,7 @@
 //? git status -> shows branch current status
 
 // git add <file_path>
-// git add . -> staged all changes
+//? git add . -> staged all changes
 
 //! branch
 //? git branch  -> list all local branch
@@ -34,3 +34,15 @@
 //? git switch <branch_name>
 //! merge
 //? git merge <branch_name>
+
+//* merge method
+//? 1. fast forward
+// main -> A -> B -> c -> D
+// test         B -> c -> D
+
+//? 2. 3-way merge
+// main -> A -> B -> E -> F
+//                               M
+// test         B -> c -> D
+
+//* merge conflict
