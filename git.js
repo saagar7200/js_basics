@@ -65,3 +65,5 @@
 
 // stash
 //* git stash list
+//* git stash -m "<stash message>"  -> add changes to stash with message
+//* git stash apply
