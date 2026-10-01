@@ -52,3 +52,7 @@
 
 //? git remote -v  -> list remote repo list
 //? git remote add origin  <remote_repo_url>
+//? git remote remove origin  ->  remove  remote repo link
+
+//? git push origin <branch_name>  -> push local commits to remote repo
+//? git pull origin <branch_name>  ->  push remote commits to local repo
