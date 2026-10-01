@@ -56,3 +56,8 @@
 
 //? git push origin <branch_name>  -> push local commits to remote repo
 //? git pull origin <branch_name>  ->  push remote commits to local repo
+
+//* history
+// git log
+// git log --oneline
+// git log --oneline --graph
