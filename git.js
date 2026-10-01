@@ -20,7 +20,7 @@
 //!working flow
 //* changes  ->  staging area [ready state] ->   new version
 //* working directory -> staging area -> local repo
-//? working directory => git add  -> staging area => git commit -m  -> local repo
+//! working directory => git add  -> staging area => git commit -m  -> local repo  => remote repo
 //? git add <file_path>  -> git commit -m "<commit_message>" -> new version
 
 //? git status -> shows branch current status
@@ -46,3 +46,9 @@
 // test         B -> c -> D
 
 //* merge conflict
+
+//! git hub
+//? remote
+
+//? git remote -v  -> list remote repo list
+//? git remote add origin  <remote_repo_url>
