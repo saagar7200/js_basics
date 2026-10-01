@@ -32,6 +32,7 @@
 //? git branch  -> list all local branch
 //? git branch <branch_name> -> create new branch form current
 //? git switch <branch_name>
+//? git switch -c <branch_name> -> create new branch + switch form current
 //! merge
 //? git merge <branch_name>
 
@@ -69,3 +70,6 @@
 //* git stash apply -> apply stash but not removed from list
 //* git stash pop  -> apply & removed stash list from list
 //* git stash clear -> drop all stash list
+
+//! PR -> Pull Request
+//
