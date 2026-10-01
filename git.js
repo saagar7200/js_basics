@@ -66,4 +66,6 @@
 // stash
 //* git stash list
 //* git stash -m "<stash message>"  -> add changes to stash with message
-//* git stash apply
+//* git stash apply -> apply stash but not removed from list
+//* git stash pop  -> apply & removed stash list from list
+//* git stash clear -> drop all stash list
