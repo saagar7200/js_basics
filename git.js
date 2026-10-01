@@ -61,3 +61,4 @@
 // git log
 // git log --oneline
 // git log --oneline --graph
+// git log  test..main --oneline  -> commit difference  => main - test
