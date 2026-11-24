@@ -52,4 +52,4 @@
 // new :      b -> c -> d
 // main: a -> b -> c -> d -> e -> f ->  merge commit
 
-//*
+//* merge conflict
