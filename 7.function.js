@@ -81,17 +81,17 @@ console.log(fullName);
 //* totalSum(numbers=[]) => sum each ele -> return total sum
 // [1,2,3]  => totalSum([1,2,3]) =>  return 6
 
-function totalSum(numbers = []) {
-  let sum = 0;
-  if (numbers.length === 0) {
-    return 0;
-  }
-  for (let number of numbers) {
-    sum += number;
-  }
+// function totalSum(numbers = []) {
+//   let sum = 0;
+//   if (numbers.length === 0) {
+//     return 0;
+//   }
+//   for (let number of numbers) {
+//     sum += number;
+//   }
 
-  return sum;
-}
+//   return sum;
+// }
 
 // console.log(totalSum([1, 2, 3])); // 6
 // console.log(totalSum([])); // 0
