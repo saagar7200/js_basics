@@ -90,22 +90,22 @@ console.log(numbers.lastIndexOf(34)); // 5
 console.log(numbers.indexOf(34)); //1
 
 //*
-let users = [
-  {
-    _id: 1,
-    name: "John Doe",
-    email: "john@gmail.com",
-    password: "1234567654",
-  },
-  {
-    _id: 2,
-    name: "Alice Doe",
-    email: "alice@gmail.com",
-    password: "1234567654",
-  },
-];
+// let users = [
+//   {
+//     _id: 1,
+//     name: "John Doe",
+//     email: "john@gmail.com",
+//     password: "1234567654",
+//   },
+//   {
+//     _id: 2,
+//     name: "Alice Doe",
+//     email: "alice@gmail.com",
+//     password: "1234567654",
+//   },
+// ];
 
-console.log(users[1].email);
+// console.log(users[1].email);
 
 //
 
