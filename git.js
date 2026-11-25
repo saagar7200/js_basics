@@ -53,3 +53,13 @@
 // main: a -> b -> c -> d -> e -> f ->  merge commit
 
 //* merge conflict
+
+//* remote
+//? git remote -v   ->
+//? git remote add origin <origin_url>
+//? git remote remove origin
+
+//* push
+//? git push origin <branch_name>
+
+//? git pull origin <branch_name>  -> fetch + merge
