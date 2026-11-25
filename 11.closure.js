@@ -13,9 +13,9 @@ const parent = () => {
   return child;
 };
 
-const a = parent();
+// const a = parent();
 // // console.log(a);
-a(); //
+// a(); //
 
 //* private variable
 // const Counter = () => {
