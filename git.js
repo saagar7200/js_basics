@@ -64,4 +64,17 @@
 
 //? git pull origin <branch_name>  -> fetch + merge
 
-//? git log main..origin/main
+//? git log main..origin/main  -> commit difference
+
+//? git diff new-branch..main
+
+//todo: stash
+//? git stash
+//? git stash pop -> apply + delete
+//? git stash apply
+//? git stash apply stash@{0}
+//? git stash drop  -> delete all list
+
+//todo: restore , reset [ hard , soft , mixed ] , revert
+
+//todo: rebase , cherry-pick
