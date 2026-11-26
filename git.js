@@ -86,4 +86,12 @@
 //? git reset --mixed <commit_hash>  -> delete commit + unstaged change -> default
 //? git reset --hard <commit_hash>  -> delete commit +  change
 
+//* revert
+//? git revert <commit_hash>
+
 //todo: rebase , cherry-pick
+
+//* rebase
+// main   : a -> b ->  c -> g -> h
+// feature:            c -> d -> e -> f
+// feature: a -> b ->  c -> g -> h -> d' -> e' -> f'
