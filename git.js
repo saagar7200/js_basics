@@ -92,6 +92,11 @@
 //todo: rebase , cherry-pick
 
 //* rebase
-// main   : a -> b ->  c -> g -> h
-// feature:            c -> d -> e -> f
-// feature: a -> b ->  c -> g -> h -> d' -> e' -> f'
+//? main   : a -> b ->  c -> g -> h
+//? feature:            c -> d -> e -> f
+//? feature: a -> b ->  c -> g -> h -> d' -> e' -> f'
+
+//* cherry-pick
+//? main   : a -> b ->  c -> g -> h
+//? feature:            c -> d -> e -> f
+//? feature: a -> b ->  c -> g -> h ->  e
