@@ -80,4 +80,10 @@
 //? git restore file_name
 //? git restore --staged file_name
 
+//* reset
+//? git reset <commit_hash>   -> mixed
+//? git reset --soft <commit_hash>  -> delete commit + staged change
+//? git reset --mixed <commit_hash>  -> delete commit + unstaged change -> default
+//? git reset --hard <commit_hash>  -> delete commit +  change
+
 //todo: rebase , cherry-pick
