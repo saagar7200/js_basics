@@ -11,9 +11,9 @@
 //* variable
 //* variable declaration methods :
 //? let , const , var
-var a = 12; // declaration
-console.log("a"); //
-console.log(a); // 12
+// var a = 12; // declaration
+// console.log("a"); //
+// console.log(a); // 12
 
 a = 56; // re-assignment
 
