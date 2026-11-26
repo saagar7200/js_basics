@@ -76,9 +76,6 @@
 //? git stash drop  -> delete all list
 
 //todo: restore , reset [ hard , soft , mixed ] , revert
-//* restore
-//? git restore file_name
-//? git restore --staged file_name
 
 //* reset
 //? git reset <commit_hash>   -> mixed
