@@ -53,3 +53,19 @@
 // main: a -> b -> c -> d -> e -> f ->  merge commit
 
 //* merge conflict
+
+//* push
+//? git push origin <branch_name>
+
+//? git pull origin <branch_name>  -> fetch + merge
+
+//? git log main..origin/main  -> commit difference
+
+//? git diff new-branch..main
+
+//todo: stash
+//? git stash
+
+//todo: restore , reset [ hard , soft , mixed ] , revert
+
+//todo: rebase , cherry-pick
